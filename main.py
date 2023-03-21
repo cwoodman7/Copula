@@ -2,9 +2,12 @@ import matplotlib.pyplot as plt
 import openturns as ot
 import numpy as np
 import math
+import os
 
 
 def main():
+    print(os.listdir())
+
     x1 = ot.Normal(0, 1)
     x2 = ot.Normal(0, 1)
 
